@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>The Application of Knowledge</title>
+        <style>
+            body {
+                background: rgb(48, 49, 48);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(245, 238, 219);
+                margin: 0 auto 20px auto;
+                border-radius: 2px;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: rgb(239, 80, 41);
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                border-radius:2px;
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+            
+            #profilePicture {
+                border: 1px solid rgb(239, 80, 41);
+            }
+        </style>
+        <link href='styles.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div id='all-contents'>
+            <nav>
+                <header>ikronaeon</header>
+                <ul>
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='portfolio.html'>Portfolio</a></li>
+                </ul>
+            </nav>
+            <main>
+                <div class='sidebar'>
+                    <img id='profilePicture' src='https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/11705330_10207151737011156_3123084833802250889_n.jpg?oh=59df1571f3d926623fee323022b982a5&oe=561B1A34'>
+                </div>
+                <div class='content'>
+                    <header>Tyler Byrd</header>
+                    <p>The Junkie of JavaScript</p>
+                    <p>I am the meanest JavaScript programmer to ever exist. This is me in the meta; glory is mine!</p>
+                    <section>
+                        <header>Interests</header>
+                        <ul>
+                            <li>Philosophy</li>
+                            <li>Programming</li>
+                            <li>Raw Nutrition</li>
+                            <li>Training</li>
+                            <li>Yoga</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    
+    </body>
+</html>
